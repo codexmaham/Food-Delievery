@@ -1,5 +1,5 @@
 .navbar{
-    padding:0px 80px 0px 0;
+    padding:20px 0px 0px 0;
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
@@ -12,10 +12,12 @@
 .navbar-menu{
     display: flex;
     list-style: none;
-    gap: 20px;
+    gap: 30px;
     font-size: 18px;
 }
-
+.navbar li{
+    cursor: pointer;
+}
 .navbar-right{
     display:flex;
     align-items: center;
@@ -48,4 +50,20 @@
 .navbar .active{
     padding-bottom: 2px;
     border-bottom: 4px solid #fff42f;
+}
+.navbar-search{
+    position: relative;
+}
+.navbar-search .dot{
+    position: absolute;
+    min-height: 10px;
+    min-height: 10px;
+    background-color: #fff42f;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    top: -8px;
+    right: -8px;
 }
